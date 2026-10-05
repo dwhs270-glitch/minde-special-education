@@ -203,6 +203,12 @@ button,a,input{touch-action:manipulation}button{min-height:44px}input{min-width:
 .jump-focus{outline:3px solid #14776e;outline-offset:5px;border-radius:8px}
 @media(max-width:640px){main{padding:16px 14px!important}header>div:first-child>div{min-height:70px}#navTabs{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}#navTabs button{font-size:13px;padding:8px 4px}#navTabs button:last-child{grid-column:span 2}.hero{padding:18px}.hero h2{font-size:21px!important}.hero p{font-size:14px!important}.search-panel{padding:16px;margin-bottom:20px}.search-row{flex-wrap:wrap}.search-row input{flex-basis:calc(100% - 82px);width:0}.search-row button{padding:8px 15px}.search-row .secondary{min-height:36px;background:none;padding:0 4px}.search-tags a{margin-left:0;width:100%}.trait-card,.tab-content>div.p-6{padding:16px!important}.trait-card summary>div{min-width:0;align-items:flex-start}.trait-card h3{font-size:17px;overflow-wrap:anywhere}.tab-content h2{font-size:20px}.tab-content .flex-1{min-width:0}.tab-content .flex.justify-between{flex-wrap:wrap;gap:8px}.tab-content .gap-4{gap:12px}.tab-content .overflow-x-auto{overflow-x:auto}#tab-chat>div{height:650px;max-height:none;min-height:420px}#tab-chat>div>div:nth-child(2){flex-wrap:wrap;white-space:normal;overflow:visible}#userInput{width:0}#toast{bottom:16px;right:14px;left:14px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+</style><style>
+.search-tags .contact-trigger{margin-left:auto;color:var(--teal);background:transparent;text-decoration:underline;text-underline-offset:4px}
+.contact-dialog{width:min(520px,calc(100vw - 28px));max-height:calc(100dvh - 32px);overflow:auto;margin:auto;padding:24px;border:1px solid var(--line);border-radius:16px;color:var(--ink);box-shadow:0 18px 70px #19354b30;background:white}
+.contact-dialog::backdrop{background:#19354b70}.contact-heading{display:flex;justify-content:space-between;align-items:center;gap:12px}.contact-heading h2{font-size:22px;font-weight:700;color:var(--navy)}.contact-heading button{width:44px;min-width:44px;border-radius:8px;background:#edf2f5}.contact-unit{margin:16px 0;line-height:1.8;font-weight:600}.contact-dialog dl{display:grid;grid-template-columns:120px minmax(0,1fr);gap:12px 16px;font-size:16px}.contact-dialog dt{color:#526877}.contact-dialog dd{margin:0;overflow-wrap:anywhere}.contact-note{font-size:14px;color:#526877;margin:20px 0;line-height:1.8}.contact-call{display:block;text-align:center;background:var(--teal);color:white;border-radius:9px;padding:12px 16px;min-height:48px;text-decoration:none}
+.trait-card{scroll-margin-top:20px}.trait-jump-target{outline:3px solid var(--teal);outline-offset:4px}
+@media(max-width:640px){.search-tags .contact-trigger{margin-left:0;width:100%;text-align:left;padding-left:0}.contact-dialog{padding:18px}.contact-dialog dl{grid-template-columns:1fr;gap:4px}.contact-dialog dd{margin-bottom:12px}}
 </style></head>
 <body class="bg-slate-50 text-slate-800 font-sans antialiased min-h-screen flex flex-col selection:bg-emerald-100 selection:text-emerald-900">
 <header class="bg-white border-b border-slate-200 sticky top-0 z-40 shadow-xs">
@@ -216,7 +222,7 @@ button,a,input{touch-action:manipulation}button{min-height:44px}input{min-width:
 <div class="min-w-0">
 <div class="flex items-center space-x-1.5 flex-wrap">
 <span class="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 whitespace-nowrap">臺南市立民德國中</span>
-<span class="text-[11px] text-slate-500 hidden md:inline">輔導室 學習中心</span>
+<span class="text-[11px] text-slate-500">輔導室 學習中心</span>
 </div>
 <h1 class="text-sm sm:text-base md:text-lg font-bold text-slate-800 truncate leading-tight mt-0.5">特教資源班諮詢與支持網</h1>
 </div>
@@ -258,7 +264,7 @@ button,a,input{touch-action:manipulation}button{min-height:44px}input{min-width:
 <h2 class="text-lg sm:text-2xl font-bold mb-1.5 leading-snug">找到需要的支持，從這裡開始</h2>
 <p class="text-slate-200 text-xs sm:text-sm leading-relaxed">查詢學生特質、鑑定流程與介入紀錄，或使用資料問答取得平台內的相關指引。</p>
 </div>
-</div><section aria-label="快速查詢" class="search-panel"><form id="searchForm" role="search"><label for="siteSearch">您想查詢什麼？</label><div class="search-row"><input autocomplete="off" id="siteSearch" placeholder="輸入關鍵字，例如：報讀、同意書、介入" type="search"/><button type="submit">查詢</button><button aria-label="清除查詢" class="secondary" id="clearSearch" type="button">清除</button></div></form><div class="search-tags"><span>常用：</span><button data-query="學習障礙" type="button">學習障礙</button><button data-query="鑑定" type="button">鑑定流程</button><button data-query="介入" type="button">介入紀錄</button><a href="tel:062223014,57">聯絡學習中心 ↗</a></div><div hidden="" id="searchResults"><p id="searchStatus" role="status"></p><div id="resultList"></div></div></section>
+</div><section aria-label="快速查詢" class="search-panel"><form id="searchForm" role="search"><label for="siteSearch">您想查詢什麼？</label><div class="search-row"><input autocomplete="off" id="siteSearch" placeholder="輸入關鍵字，例如：報讀、同意書、介入" type="search"/><button type="submit">查詢</button><button aria-label="清除查詢" class="secondary" id="clearSearch" type="button">清除</button></div></form><div class="search-tags"><span>常用：</span><button data-query="學習障礙" type="button">學習障礙</button><button data-query="鑑定" type="button">鑑定流程</button><button data-query="介入" type="button">介入紀錄</button><button aria-controls="contactDialog" aria-haspopup="dialog" class="contact-trigger" id="contactButton" onclick="openContactDialog()" type="button">聯絡學習中心</button></div><div hidden="" id="searchResults"><p id="searchStatus" role="status"></p><div id="resultList"></div></div></section>
 <section aria-labelledby="btn-traits" class="tab-content space-y-6" id="tab-traits" tabindex="-1">
 <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-2 border-b border-slate-200">
 <div>
@@ -270,10 +276,10 @@ button,a,input{touch-action:manipulation}button{min-height:44px}input{min-width:
 </div>
 <!-- Quick Filter buttons with iframe-safe jump -->
 <div class="flex flex-wrap gap-1.5 text-xs">
-<button class="px-2.5 py-1 bg-white border border-slate-200 rounded-md hover:bg-slate-100 text-slate-700 touch-manipulation" onclick="scrollToElement('trait-sld')">學習障礙</button>
-<button class="px-2.5 py-1 bg-white border border-slate-200 rounded-md hover:bg-slate-100 text-slate-700 touch-manipulation" onclick="scrollToElement('trait-id')">智能障礙</button>
-<button class="px-2.5 py-1 bg-white border border-slate-200 rounded-md hover:bg-slate-100 text-slate-700 touch-manipulation" onclick="scrollToElement('trait-ebd')">情緒行為障礙</button>
-<button class="px-2.5 py-1 bg-white border border-slate-200 rounded-md hover:bg-slate-100 text-slate-700 touch-manipulation" onclick="scrollToElement('trait-asd')">自閉症(亞斯)</button>
+<button aria-controls="trait-sld" class="px-2.5 py-1 bg-white border border-slate-200 rounded-md hover:bg-slate-100 text-slate-700 touch-manipulation" onclick="jumpToTrait('trait-sld')" type="button">學習障礙</button>
+<button aria-controls="trait-id" class="px-2.5 py-1 bg-white border border-slate-200 rounded-md hover:bg-slate-100 text-slate-700 touch-manipulation" onclick="jumpToTrait('trait-id')" type="button">智能障礙</button>
+<button aria-controls="trait-ebd" class="px-2.5 py-1 bg-white border border-slate-200 rounded-md hover:bg-slate-100 text-slate-700 touch-manipulation" onclick="jumpToTrait('trait-ebd')" type="button">情緒行為障礙</button>
+<button aria-controls="trait-asd" class="px-2.5 py-1 bg-white border border-slate-200 rounded-md hover:bg-slate-100 text-slate-700 touch-manipulation" onclick="jumpToTrait('trait-asd')" type="button">自閉症(亞斯)</button>
 </div>
 </div>
 <!-- Category A: 學習障礙 -->
@@ -1490,8 +1496,34 @@ document.querySelectorAll('.tab-content:not(#tab-chat)').forEach(section=>{
 });
 const oldSwitchTab=switchTab;
 switchTab=function(id){if(!document.getElementById(id))return;oldSwitchTab(id);document.querySelectorAll('#navTabs button').forEach(b=>b.setAttribute('aria-current',b.getAttribute('aria-controls')===id?'page':'false'));};
-const oldScrollToElement=scrollToElement;
-scrollToElement=function(id){const el=document.getElementById(id);if(el?.tagName==='DETAILS')el.open=true;oldScrollToElement(id);};
+let traitJumpFrame=0;
+function jumpToTrait(id){
+  const el=document.getElementById(id);
+  if(!el)return;
+  const section=el.closest('.tab-content');
+  if(section?.classList.contains('hidden'))switchTab(section.id);
+  if(el.tagName==='DETAILS')el.open=true;
+  el.setAttribute('tabindex','-1');
+  cancelAnimationFrame(traitJumpFrame);
+  traitJumpFrame=requestAnimationFrame(()=>{
+    traitJumpFrame=requestAnimationFrame(()=>{
+      window.scrollTo({top:Math.max(0,window.scrollY+el.getBoundingClientRect().top-20),behavior:'instant'});
+      el.focus({preventScroll:true});
+      document.querySelectorAll('.trait-jump-target').forEach(n=>n.classList.remove('trait-jump-target'));
+      el.classList.add('trait-jump-target');
+      setTimeout(()=>el.classList.remove('trait-jump-target'),1800);
+      postIframeHeight();
+    });
+  });
+}
+scrollToElement=jumpToTrait;
+function openContactDialog(){
+  document.getElementById('contactDialog').showModal();
+}
+window.addEventListener('DOMContentLoaded',()=>document.getElementById('contactDialog').addEventListener('click',e=>{
+  const d=e.currentTarget,r=d.getBoundingClientRect();
+  if(e.target===d&&(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom))d.close();
+}));
 function runSearch(){
   const query=document.getElementById('siteSearch').value.trim();
   const list=document.getElementById('resultList');list.replaceChildren();
@@ -1512,5 +1544,5 @@ document.getElementById('clearSearch').addEventListener('click',()=>{document.ge
 document.getElementById('siteSearch').addEventListener('input',runSearch);
 document.querySelectorAll('[data-query]').forEach(b=>b.addEventListener('click',()=>{document.getElementById('siteSearch').value=b.dataset.query;runSearch();}));
 document.querySelectorAll('details').forEach(d=>d.addEventListener('toggle',postIframeHeight));
-</script></body>
+</script><dialog aria-labelledby="contactTitle" class="contact-dialog" id="contactDialog"><div class="contact-heading"><h2 id="contactTitle">聯絡學習中心</h2><button aria-label="關閉聯絡資訊" onclick="document.getElementById('contactDialog').close()" type="button">✕</button></div><p class="contact-unit">臺南市立民德國中<br/>輔導室 學習中心（資源班）</p><dl><dt>學校電話</dt><dd>（06）222-3014</dd><dt>學習中心分機</dt><dd>57</dd><dt>洽詢地點</dt><dd>行政大樓 3F</dd><dt>學校地址</dt><dd>704 臺南市北區西門路三段 223 號</dd></dl><p class="contact-note">使用手機可點選下方按鈕撥打學校總機，接通後再撥分機 57；電腦可查看電話並使用電話洽詢。</p><a class="contact-call" href="tel:062223014" target="_self">撥打學校電話</a></dialog></body>
 </html>
