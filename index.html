@@ -1,0 +1,1516 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>臺南市立民德國中 學習中心（資源班）特殊教育線上諮詢平台</title>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- Font Awesome Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Base target ensuring all external outbound links open in a fresh tab outside Google Sites iframe -->
+<base target="_blank"/>
+<script>
+
+    tailwind.config = {
+
+      theme: {
+
+        extend: {
+
+          fontFamily: {
+
+            sans: ['Noto Sans TC', 'sans-serif'],
+
+          },
+
+          colors: {
+
+            minde: {
+
+              50: '#f0fdf4',
+
+              100: '#dcfce7',
+
+              500: '#16a34a',
+
+              700: '#15803d',
+
+              800: '#166534',
+
+              900: '#14532d',
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  </script>
+<style>
+
+    /* Google Sites iframe & Touch Friendly Optimization */
+
+    html, body {
+
+      overflow-x: hidden;
+
+      -webkit-tap-highlight-color: transparent;
+
+      touch-action: manipulation;
+
+    }
+
+
+
+    /* Prevent double scrollbars inside Google Sites embedded iframe */
+
+    body {
+
+      min-height: 100%;
+
+      height: auto;
+
+    }
+
+
+
+    /* Custom scrollbar */
+
+    ::-webkit-scrollbar {
+
+      width: 5px;
+
+      height: 5px;
+
+    }
+
+    ::-webkit-scrollbar-track {
+
+      background: #f1f5f9;
+
+    }
+
+    ::-webkit-scrollbar-thumb {
+
+      background: #cbd5e1;
+
+      border-radius: 9999px;
+
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+
+      background: #94a3b8;
+
+    }
+
+    .chat-bubble-ai {
+
+      background: #ffffff;
+
+      border: 1px solid #e2e8f0;
+
+      border-radius: 1rem 1rem 1rem 0.25rem;
+
+    }
+
+    .chat-bubble-user {
+
+      background: #15803d;
+
+      color: #ffffff;
+
+      border-radius: 1rem 1rem 0.25rem 1rem;
+
+    }
+
+
+
+    /* Tab bar smooth horizontal momentum scrolling on iOS */
+
+    .no-scrollbar::-webkit-scrollbar {
+
+      display: none;
+
+    }
+
+    .no-scrollbar {
+
+      -ms-overflow-style: none;
+
+      scrollbar-width: none;
+
+      -webkit-overflow-scrolling: touch;
+
+    }
+
+
+
+    /* Prevent mobile browser auto-zoom on input focus */
+
+    @media screen and (max-width: 768px) {
+
+      input, select, textarea {
+
+        font-size: 16px !important;
+
+      }
+
+    }
+
+  </style>
+<style>
+:root{--navy:#19354b;--teal:#14776e;--ink:#263b4c;--line:#dde6ec}
+body{background:#f3f6f8!important;color:var(--ink);line-height:1.75}
+header{position:relative!important;box-shadow:none!important;border-top:4px solid var(--navy)}
+header>div:first-child>div{height:auto;min-height:76px;padding-block:12px}
+main{max-width:1120px!important;padding-top:24px!important}
+h1,h2,h3{letter-spacing:-.025em}h1{white-space:normal!important}h2{line-height:1.45!important}
+button,a,input{touch-action:manipulation}button{min-height:44px}input{min-width:0;min-height:48px;font-size:16px!important}
+:focus-visible{outline:3px solid #14776e!important;outline-offset:3px}
+#navTabs{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;overflow:visible;padding:10px 0}
+#navTabs button{justify-content:center;border:1px solid transparent;white-space:normal;font-size:14px;border-radius:9px;color:#516474;background:transparent}
+#navTabs button[aria-current="page"]{color:var(--navy)!important;background:white;border-color:#bcced9;box-shadow:0 2px 6px #19354b08}
+#navTabs i{color:inherit!important}.animate-pulse,.animate-bounce{animation:none!important}
+.hero{margin-bottom:18px;padding:25px 28px;border:1px solid var(--line);border-radius:16px;background:white;color:var(--navy);box-shadow:none}
+.hero>div.absolute{display:none}.hero p{color:#526877!important;font-size:15px!important;line-height:1.8}.hero h2{font-size:26px!important}
+.hero [class*="bg-emerald"]{background:#eaf4f2!important;color:var(--teal)!important}
+.search-panel{background:white;border:1px solid var(--line);border-radius:16px;padding:22px;margin-bottom:26px}
+.search-panel label{display:block;font-size:16px;font-weight:700;color:var(--navy);margin-bottom:9px}
+.search-row{display:flex;gap:8px}.search-row input{flex:1;border:1px solid #bdccd5;border-radius:9px;padding:10px 12px;background:#fbfcfd}
+.search-row button{padding:8px 20px;border-radius:9px;background:var(--navy);color:white;font-weight:600}.search-row .secondary{background:#edf2f5;color:var(--ink)}
+.search-tags{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:12px;font-size:14px;color:#657887}
+.search-tags button{background:#f1f6f7;border-radius:8px;padding:5px 12px;color:var(--teal)}.search-tags a{margin-left:auto;color:var(--teal);text-decoration:underline;padding:8px 0}
+#searchStatus{margin-top:16px;color:#526877;font-size:14px}.result-item{display:block;width:100%;text-align:left;border-top:1px solid var(--line);padding:15px 4px;background:white;min-height:64px}.result-item strong{color:var(--navy)}.result-item span{display:block;color:#526877;font-size:14px}
+.tab-content{scroll-margin-top:16px}.tab-content p,.tab-content li,.tab-content [class*="text-xs"]{font-size:15px!important;line-height:1.85}.tab-content .text-sm{font-size:15px!important}
+.tab-content>div.bg-white,.trait-card{border-color:var(--line)!important;box-shadow:0 3px 12px #19354b04!important}
+.trait-card{background:white;border:1px solid var(--line);border-radius:14px;padding:20px}.trait-card summary{cursor:pointer;list-style:none;position:relative;padding-right:30px}.trait-card summary::-webkit-details-marker{display:none}.trait-card summary:after{content:'＋';position:absolute;right:0;top:3px;font-size:22px;color:var(--teal)}.trait-card[open] summary:after{content:'−'}.trait-card[open] summary{margin-bottom:18px}.trait-card>div{margin-top:16px}
+[class*="bg-emerald-600"],[class*="bg-emerald-700"]{background-color:var(--teal)!important}.chat-bubble-user{background:var(--navy)}
+.tab-content [class*="text-blue-"],.tab-content [class*="text-purple-"],.tab-content [class*="text-rose-"],.tab-content [class*="text-indigo-"],.tab-content [class*="text-teal-"],.tab-content [class*="text-emerald-"]{color:var(--teal)!important}
+.tab-content [class*="bg-blue-50"],.tab-content [class*="bg-purple-50"],.tab-content [class*="bg-rose-50"],.tab-content [class*="bg-teal-50"]{background:#f3f8f8!important}
+.tab-content [class*="border-blue-"],.tab-content [class*="border-purple-"],.tab-content [class*="border-rose-"],.tab-content [class*="border-teal-"]{border-color:#d3e5e2!important}
+#tab-chat>div{height:650px;max-height:85dvh;min-height:420px}#chatMessages{min-height:0}#chatForm{align-items:center}footer{margin-top:28px!important}footer p{font-size:14px!important}
+.jump-focus{outline:3px solid #14776e;outline-offset:5px;border-radius:8px}
+@media(max-width:640px){main{padding:16px 14px!important}header>div:first-child>div{min-height:70px}#navTabs{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}#navTabs button{font-size:13px;padding:8px 4px}#navTabs button:last-child{grid-column:span 2}.hero{padding:18px}.hero h2{font-size:21px!important}.hero p{font-size:14px!important}.search-panel{padding:16px;margin-bottom:20px}.search-row{flex-wrap:wrap}.search-row input{flex-basis:calc(100% - 82px);width:0}.search-row button{padding:8px 15px}.search-row .secondary{min-height:36px;background:none;padding:0 4px}.search-tags a{margin-left:0;width:100%}.trait-card,.tab-content>div.p-6{padding:16px!important}.trait-card summary>div{min-width:0;align-items:flex-start}.trait-card h3{font-size:17px;overflow-wrap:anywhere}.tab-content h2{font-size:20px}.tab-content .flex-1{min-width:0}.tab-content .flex.justify-between{flex-wrap:wrap;gap:8px}.tab-content .gap-4{gap:12px}.tab-content .overflow-x-auto{overflow-x:auto}#tab-chat>div{height:650px;max-height:none;min-height:420px}#tab-chat>div>div:nth-child(2){flex-wrap:wrap;white-space:normal;overflow:visible}#userInput{width:0}#toast{bottom:16px;right:14px;left:14px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+</style></head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased min-h-screen flex flex-col selection:bg-emerald-100 selection:text-emerald-900">
+<header class="bg-white border-b border-slate-200 sticky top-0 z-40 shadow-xs">
+<div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-14 sm:h-16 gap-2">
+<!-- Logo & Title -->
+<div class="flex items-center space-x-2.5 sm:space-x-3 min-w-0">
+<div class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-emerald-600 flex-shrink-0 flex items-center justify-center text-white shadow-sm shadow-emerald-200">
+<i class="fa-solid fa-graduation-cap text-base sm:text-lg"></i>
+</div>
+<div class="min-w-0">
+<div class="flex items-center space-x-1.5 flex-wrap">
+<span class="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 whitespace-nowrap">臺南市立民德國中</span>
+<span class="text-[11px] text-slate-500 hidden md:inline">輔導室 學習中心</span>
+</div>
+<h1 class="text-sm sm:text-base md:text-lg font-bold text-slate-800 truncate leading-tight mt-0.5">特教資源班諮詢與支持網</h1>
+</div>
+</div>
+<!-- Quick actions button -->
+<div class="flex items-center space-x-1.5 flex-shrink-0">
+<button class="inline-flex items-center space-x-1 sm:space-x-1.5 px-2.5 py-1.5 sm:px-3 sm:py-2 rounded-lg bg-emerald-600 hover:bg-emerald-700 active:scale-95 text-white text-xs sm:text-sm font-medium transition shadow-sm touch-manipulation" onclick="switchTab('tab-chat')">
+<i class="fa-solid fa-headset animate-pulse"></i>
+<span class="hidden sm:inline">資料問答</span>
+<span class="sm:hidden">資料問答</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Secondary Nav Tabs with horizontal touch scroll indicators -->
+<div class="border-t border-slate-100 bg-slate-50/90 backdrop-blur">
+<div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 relative">
+<nav aria-label="主要功能" class="flex space-x-1.5 overflow-x-auto py-2 px-1 no-scrollbar scroll-smooth" id="navTabs">
+<button aria-controls="tab-traits" aria-current="page" class="tab-btn px-3 py-2 text-xs sm:text-sm font-semibold rounded-lg bg-white text-emerald-700 shadow-xs border border-slate-200 whitespace-nowrap flex items-center gap-1.5 min-h-[38px] touch-manipulation" id="btn-traits" onclick="switchTab('tab-traits')"><i class="fa-solid fa-shapes text-emerald-600"></i> 特質辨識</button>
+<button aria-controls="tab-process" aria-current="false" class="tab-btn px-3 py-2 text-xs sm:text-sm font-medium text-slate-600 hover:text-slate-900 rounded-lg whitespace-nowrap flex items-center gap-1.5 min-h-[38px] touch-manipulation" id="btn-process" onclick="switchTab('tab-process')"><i class="fa-solid fa-diagram-project text-blue-600"></i> 鑑定流程</button>
+<button aria-controls="tab-intervention" aria-current="false" class="tab-btn px-3 py-2 text-xs sm:text-sm font-medium text-slate-600 hover:text-slate-900 rounded-lg whitespace-nowrap flex items-center gap-1.5 min-h-[38px] touch-manipulation" id="btn-intervention" onclick="switchTab('tab-intervention')"><i class="fa-solid fa-clipboard-check text-amber-600"></i> 介入紀錄</button>
+<button aria-controls="tab-gov" aria-current="false" class="tab-btn px-3 py-2 text-xs sm:text-sm font-medium text-slate-600 hover:text-slate-900 rounded-lg whitespace-nowrap flex items-center gap-1.5 min-h-[38px] touch-manipulation" id="btn-gov" onclick="switchTab('tab-gov')"><i class="fa-solid fa-landmark text-indigo-600"></i> 官方資源</button>
+<button aria-controls="tab-chat" aria-current="false" class="tab-btn px-3 py-2 text-xs sm:text-sm font-medium text-slate-600 hover:text-slate-900 rounded-lg whitespace-nowrap flex items-center gap-1.5 min-h-[38px] touch-manipulation" id="btn-chat" onclick="switchTab('tab-chat')"><i class="fa-solid fa-robot text-teal-600"></i> 資料問答</button>
+</nav>
+</div>
+</div>
+</header>
+<main class="flex-1 max-w-7xl w-full mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-6">
+<!-- Top Announcement Banner -->
+<div class="hero">
+<div class="absolute -right-6 -bottom-6 opacity-10 text-8xl sm:text-9xl pointer-events-none">
+<i class="fa-solid fa-hands-holding-child"></i>
+</div>
+<div class="relative z-10 max-w-3xl">
+<div class="inline-flex items-center gap-1.5 bg-emerald-700/80 px-2.5 py-1 rounded-full text-[11px] font-semibold tracking-wide text-emerald-200 mb-2">
+<i class="fa-solid fa-bell"></i> 學習中心（資源班）致全校教師
+
+        </div>
+<h2 class="text-lg sm:text-2xl font-bold mb-1.5 leading-snug">找到需要的支持，從這裡開始</h2>
+<p class="text-slate-200 text-xs sm:text-sm leading-relaxed">查詢學生特質、鑑定流程與介入紀錄，或使用資料問答取得平台內的相關指引。</p>
+</div>
+</div><section aria-label="快速查詢" class="search-panel"><form id="searchForm" role="search"><label for="siteSearch">您想查詢什麼？</label><div class="search-row"><input autocomplete="off" id="siteSearch" placeholder="輸入關鍵字，例如：報讀、同意書、介入" type="search"/><button type="submit">查詢</button><button aria-label="清除查詢" class="secondary" id="clearSearch" type="button">清除</button></div></form><div class="search-tags"><span>常用：</span><button data-query="學習障礙" type="button">學習障礙</button><button data-query="鑑定" type="button">鑑定流程</button><button data-query="介入" type="button">介入紀錄</button><a href="tel:062223014,57">聯絡學習中心 ↗</a></div><div hidden="" id="searchResults"><p id="searchStatus" role="status"></p><div id="resultList"></div></div></section>
+<section aria-labelledby="btn-traits" class="tab-content space-y-6" id="tab-traits" tabindex="-1">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-2 border-b border-slate-200">
+<div>
+<h2 class="text-xl font-bold text-slate-900 flex items-center gap-2">
+<i class="fa-solid fa-id-card-clip text-emerald-600"></i> 普通班常見特殊需求學生及其特質
+
+          </h2>
+<p class="text-sm text-slate-500 mt-1">依教育部法規與本校學習中心115-1特殊生特質指引彙編</p>
+</div>
+<!-- Quick Filter buttons with iframe-safe jump -->
+<div class="flex flex-wrap gap-1.5 text-xs">
+<button class="px-2.5 py-1 bg-white border border-slate-200 rounded-md hover:bg-slate-100 text-slate-700 touch-manipulation" onclick="scrollToElement('trait-sld')">學習障礙</button>
+<button class="px-2.5 py-1 bg-white border border-slate-200 rounded-md hover:bg-slate-100 text-slate-700 touch-manipulation" onclick="scrollToElement('trait-id')">智能障礙</button>
+<button class="px-2.5 py-1 bg-white border border-slate-200 rounded-md hover:bg-slate-100 text-slate-700 touch-manipulation" onclick="scrollToElement('trait-ebd')">情緒行為障礙</button>
+<button class="px-2.5 py-1 bg-white border border-slate-200 rounded-md hover:bg-slate-100 text-slate-700 touch-manipulation" onclick="scrollToElement('trait-asd')">自閉症(亞斯)</button>
+</div>
+</div>
+<!-- Category A: 學習障礙 -->
+<details class="trait-card" id="trait-sld" open="">
+<summary class="flex items-start justify-between flex-wrap gap-2">
+<div class="flex items-center space-x-3">
+<span class="w-9 h-9 rounded-xl bg-blue-100 text-blue-700 font-bold flex items-center justify-center text-lg">A</span>
+<div>
+<h3 class="text-lg font-bold text-slate-900">學習障礙 (Specific Learning Disabilities, SLD)</h3>
+<span class="text-xs text-blue-600 bg-blue-50 px-2 py-0.5 rounded-full font-medium">常見亞型：閱讀識字 / 閱讀理解 / 書寫 / 數學運算</span>
+</div>
+</div>
+<span class="text-xs bg-slate-100 text-slate-600 px-3 py-1 rounded-full font-medium">
+<i class="fa-solid fa-triangle-exclamation text-amber-500 mr-1"></i> 智力正常，但特定學科有顯著困難
+
+          </span>
+</summary>
+<div class="bg-slate-50 p-4 rounded-xl text-sm text-slate-700 leading-relaxed border-l-4 border-blue-500">
+<strong>【法規核心定義】：</strong>
+
+          神經心理功能異常而顯現出注意、記憶、理解、知覺、知覺動作、推理等能力有問題，致在聽、說、讀、寫或算等學習上有顯著困難者，且經確定一般教育所提供之介入，仍難有效改善；其障礙並非因感官、智能、情緒等障礙因素或文化刺激不足、教學不當等環境因素所直接造成之結果。
+
+        </div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
+<!-- 閱讀認字困難 -->
+<div class="p-4 rounded-xl border border-blue-100 bg-blue-50/40">
+<h4 class="font-bold text-blue-900 text-sm flex items-center gap-1.5 mb-2">
+<i class="fa-solid fa-book-open-reader text-blue-600"></i> 疑似閱讀 - 認字困難
+
+            </h4>
+<ul class="text-xs text-slate-600 space-y-1.5 list-disc pl-4">
+<li>唸讀文章不順暢，容易跳字、跳行或漏念。</li>
+<li>詞彙整體認讀尚可，但讀出單獨字非常困難。</li>
+<li><strong>顯著指標：</strong>「報讀」成績比「自行讀題」成績明顯較佳（聽力理解正常）。</li>
+</ul>
+</div>
+<!-- 閱讀理解困難 -->
+<div class="p-4 rounded-xl border border-blue-100 bg-blue-50/40">
+<h4 class="font-bold text-blue-900 text-sm flex items-center gap-1.5 mb-2">
+<i class="fa-solid fa-brain text-blue-600"></i> 疑似閱讀 - 理解困難
+
+            </h4>
+<ul class="text-xs text-slate-600 space-y-1.5 list-disc pl-4">
+<li>閱讀不流暢，詞彙理解與日常應用能力較弱。</li>
+<li>推論、統整段落核心訊息有嚴重障礙。</li>
+<li><strong>測驗指標：</strong>閱讀理解題目（詞意、句意、文意）常態呈現僅 <strong>20%~40%</strong> 正確率。</li>
+</ul>
+</div>
+<!-- 書寫困難 -->
+<div class="p-4 rounded-xl border border-blue-100 bg-blue-50/40">
+<h4 class="font-bold text-blue-900 text-sm flex items-center gap-1.5 mb-2">
+<i class="fa-solid fa-pen-nib text-blue-600"></i> 疑似書寫困難
+
+            </h4>
+<ul class="text-xs text-slate-600 space-y-1.5 list-disc pl-4">
+<li>近端、遠端板書抄寫錯誤嚴重，同一國字反覆抄寫仍頻繁出錯。</li>
+<li>經過指導與練習後，聽寫狀況依舊不佳，字彙提取困難。</li>
+<li>常出現增減筆畫、部件倒置、組字規則錯誤或部首顛倒等現象。</li>
+</ul>
+</div>
+<!-- 數學運算困難 -->
+<div class="p-4 rounded-xl border border-blue-100 bg-blue-50/40">
+<h4 class="font-bold text-blue-900 text-sm flex items-center gap-1.5 mb-2">
+<i class="fa-solid fa-calculator text-blue-600"></i> 疑似數學運算困難
+
+            </h4>
+<ul class="text-xs text-slate-600 space-y-1.5 list-disc pl-4">
+<li>基本運算（九九乘法、加、減、乘除）有極大提取困難。</li>
+<li>基本數字概念或自動化提取能力差。</li>
+<li>經過課後介入教學與足夠個別練習後，仍無法進入穩定運算狀態。</li>
+</ul>
+</div>
+</div>
+<!-- 鑑別關鍵提醒 -->
+<div class="bg-amber-50 border border-amber-200 rounded-xl p-3.5 flex items-start gap-3 text-xs text-amber-900">
+<i class="fa-solid fa-circle-exclamation text-amber-600 text-base mt-0.5"></i>
+<div>
+<strong class="font-bold text-amber-950">【學習中心關鍵排除提醒】注意力缺陷問題：</strong>
+
+            若孩子有明顯注意力不足或過動問題，建議家長應先至兒童心智科或身心科就醫，<strong>先以藥物或行為治療介入</strong>；若醫療與行為介入後成績明顯提升，即屬於專注力影響而非真正的學習障礙。
+
+          </div>
+</div>
+</details>
+<!-- Category B: 智能障礙 -->
+<details class="trait-card" id="trait-id">
+<summary class="flex items-start justify-between flex-wrap gap-2">
+<div class="flex items-center space-x-3">
+<span class="w-9 h-9 rounded-xl bg-purple-100 text-purple-700 font-bold flex items-center justify-center text-lg">B</span>
+<div>
+<h3 class="text-lg font-bold text-slate-900">智能障礙 (Intellectual Disability, ID)</h3>
+<span class="text-xs text-purple-600 bg-purple-50 px-2 py-0.5 rounded-full font-medium">心智功能與生活適應行為雙重顯著困難</span>
+</div>
+</div>
+<span class="text-xs bg-purple-50 text-purple-700 px-3 py-1 rounded-full font-medium">智力測驗 70 以下</span>
+</summary>
+<div class="bg-slate-50 p-4 rounded-xl text-sm text-slate-700 leading-relaxed border-l-4 border-purple-500">
+<strong>【法規核心定義】：</strong>
+
+          個人之智能發展較同年齡者明顯遲緩，心智功能明顯低下或個別智力測驗結果未達平均數負二個標準差（標準分數70以下）。且在學習及生活適應能力表現上較同齡者有顯著困難情形。
+
+        </div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs text-slate-700">
+<div class="p-3 bg-purple-50/50 rounded-lg border border-purple-100">
+<div class="font-bold text-purple-900 mb-1 flex items-center gap-1">
+<i class="fa-solid fa-file-medical text-purple-600"></i> 診斷標準
+
+            </div>
+
+            具醫療診斷證明或身心障礙證明，個別智力測驗分數於 <strong>70 以下</strong>。
+
+          </div>
+<div class="p-3 bg-purple-50/50 rounded-lg border border-purple-100">
+<div class="font-bold text-purple-900 mb-1 flex items-center gap-1">
+<i class="fa-solid fa-users text-purple-600"></i> 適應行為困境
+
+            </div>
+
+            在社會知能、概念知能及實用日常技巧上有顯著障礙。
+
+          </div>
+<div class="p-3 bg-purple-50/50 rounded-lg border border-purple-100">
+<div class="font-bold text-purple-900 mb-1 flex items-center gap-1">
+<i class="fa-solid fa-school text-purple-600"></i> 課堂常態表現
+
+            </div>
+
+            不只單一學科，整體學業吸收能力、抽象概念思維、生活常規適應均普遍不佳。
+
+          </div>
+</div>
+</details>
+<!-- Category C: 情緒行為障礙 -->
+<details class="trait-card" id="trait-ebd">
+<summary class="flex items-start justify-between flex-wrap gap-2">
+<div class="flex items-center space-x-3">
+<span class="w-9 h-9 rounded-xl bg-rose-100 text-rose-700 font-bold flex items-center justify-center text-lg">C</span>
+<div>
+<h3 class="text-lg font-bold text-slate-900">情緒行為障礙 (Emotional and Behavioral Disorders, EBD)</h3>
+<span class="text-xs text-rose-600 bg-rose-50 px-2 py-0.5 rounded-full font-medium">長期顯著情緒/行為異常，且具跨情境性</span>
+</div>
+</div>
+<span class="text-xs bg-rose-50 text-rose-700 px-3 py-1 rounded-full font-medium">需醫療持續服藥紀錄與輔導介入</span>
+</summary>
+<div class="bg-slate-50 p-4 rounded-xl text-sm text-slate-700 leading-relaxed border-l-4 border-rose-500">
+<strong>【法規核心定義】：</strong>
+
+          長期情緒或行為表現顯著異常，嚴重影響學校適應者；其障礙非因智能、感官或健康等因素直接造成之結果。經一般普通教育所提供之各項輔導介入，仍難獲得有效改善。
+
+        </div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs text-slate-700">
+<div class="p-3.5 bg-rose-50/40 rounded-xl border border-rose-100 space-y-2">
+<div class="font-bold text-rose-900 flex items-center gap-1.5 text-sm">
+<i class="fa-solid fa-triangle-exclamation text-rose-600"></i> 行為徵狀檢核
+
+            </div>
+<p>包含嚴重的注意力不足/過動衝動、情緒起伏極大、過度焦慮、恐懼、退縮，或具攻擊破壞行為，導致在學業、人際、師生互動有重大困難。</p>
+</div>
+<div class="p-3.5 bg-rose-50/40 rounded-xl border border-rose-100 space-y-2">
+<div class="font-bold text-rose-900 flex items-center gap-1.5 text-sm">
+<i class="fa-solid fa-hospital-user text-rose-600"></i> 醫療與跨情境要件
+
+            </div>
+<p>需領有醫療診斷證明或身心障礙證明。且問題必須為<strong>跨情境</strong>（即在校內不同課堂、在家中或其他社交場合均出現持續困難，而非僅單一任課老師特定科目）。</p>
+</div>
+</div>
+</details>
+<!-- Category D: 自閉症 (亞斯伯格) -->
+<details class="trait-card" id="trait-asd">
+<summary class="flex items-start justify-between flex-wrap gap-2">
+<div class="flex items-center space-x-3">
+<span class="w-9 h-9 rounded-xl bg-teal-100 text-teal-700 font-bold flex items-center justify-center text-lg">D</span>
+<div>
+<h3 class="text-lg font-bold text-slate-900">自閉症 / 亞斯伯格 (Autism Spectrum Disorder, ASD)</h3>
+<span class="text-xs text-teal-600 bg-teal-50 px-2 py-0.5 rounded-full font-medium">社交溝通障礙 + 侷限固著行為模式</span>
+</div>
+</div>
+<span class="text-xs bg-teal-50 text-teal-700 px-3 py-1 rounded-full font-medium">需大型醫療院所持續就醫紀錄</span>
+</summary>
+<div class="bg-slate-50 p-4 rounded-xl text-sm text-slate-700 leading-relaxed border-l-4 border-teal-500">
+<strong>【法規核心定義】：</strong>
+
+          因神經心理功能異常而顯現出溝通、社會互動、行為及興趣表現上有嚴重問題，致在學習及生活適應上有顯著困難者。
+
+        </div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs text-slate-700">
+<div class="p-3 bg-teal-50/50 rounded-lg border border-teal-100">
+<div class="font-bold text-teal-900 mb-1 flex items-center gap-1">
+<i class="fa-solid fa-comments text-teal-600"></i> 社會互動與溝通
+
+            </div>
+
+            眼神接觸少、口語溝通困難或語調特殊、缺乏同理心與解讀非語言線索（表情、潛台詞）的能力。
+
+          </div>
+<div class="p-3 bg-teal-50/50 rounded-lg border border-teal-100">
+<div class="font-bold text-teal-900 mb-1 flex items-center gap-1">
+<i class="fa-solid fa-repeat text-teal-600"></i> 固著行為與特異興趣
+
+            </div>
+
+            生活作息與行程變更極易引發焦慮恐慌；專注於固定狹隘特定興趣或特定規則，抗拒彈性變動。
+
+          </div>
+<div class="p-3 bg-teal-50/50 rounded-lg border border-teal-100">
+<div class="font-bold text-teal-900 mb-1 flex items-center gap-1">
+<i class="fa-solid fa-certificate text-teal-600"></i> 就醫檢定標準
+
+            </div>
+
+            須有醫療診斷/證明。鑑輔會提報時<strong>要求各大醫院（教學醫院/醫學中心）持續就醫紀錄</strong>。
+
+          </div>
+</div>
+</details>
+</section>
+<section aria-labelledby="btn-process" class="tab-content hidden space-y-6" id="tab-process" tabindex="-1">
+<div class="border-b border-slate-200 pb-3">
+<h2 class="text-xl font-bold text-slate-900 flex items-center gap-2">
+<i class="fa-solid fa-diagram-project text-blue-600"></i> 臺南市針對疑似特殊需求學生鑑定提報流程
+
+        </h2>
+<p class="text-sm text-slate-500 mt-1">涵蓋學障、情障、自閉症提報程序（民德國中學習中心標準作業規範）</p>
+</div>
+<!-- Clean Interactive Flowchart Diagram -->
+<div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
+<div class="relative max-w-3xl mx-auto space-y-4">
+<!-- Step 1 -->
+<div class="flex items-start gap-4">
+<div class="flex flex-col items-center">
+<div class="w-10 h-10 rounded-full bg-slate-100 border-2 border-slate-400 text-slate-700 flex items-center justify-center font-bold text-sm shadow">1</div>
+<div class="w-0.5 h-12 bg-slate-300"></div>
+</div>
+<div class="flex-1 bg-slate-50 border border-slate-200 rounded-xl p-4">
+<div class="flex justify-between items-center">
+<h4 class="font-bold text-slate-800 text-sm sm:text-base">導師、任課老師察覺學生特殊需求</h4>
+<span class="text-xs px-2 py-0.5 bg-slate-200 text-slate-700 rounded">觀察發掘</span>
+</div>
+<p class="text-xs text-slate-600 mt-1">於課堂、聯絡簿、學業作答、同儕互動中察覺學障、情障或自閉症特徵。</p>
+</div>
+</div>
+<!-- Step 2 (Crucial) -->
+<div class="flex items-start gap-4">
+<div class="flex flex-col items-center">
+<div class="w-10 h-10 rounded-full bg-amber-500 text-white flex items-center justify-center font-bold text-sm shadow ring-4 ring-amber-100">2</div>
+<div class="w-0.5 h-12 bg-amber-300"></div>
+</div>
+<div class="flex-1 bg-amber-50/70 border-2 border-amber-300 rounded-xl p-4 relative">
+<span class="absolute -top-2.5 right-4 bg-amber-600 text-white text-[10px] px-2 py-0.5 rounded-full font-bold uppercase tracking-wider">關鍵要件</span>
+<div class="flex justify-between items-center">
+<h4 class="font-bold text-amber-950 text-sm sm:text-base">依障礙類別完成轉介前介入輔導</h4>
+</div>
+<p class="text-xs text-amber-900 mt-1 font-medium">
+
+                依擬提報類別確認期程與次數：學障、情障、自閉症為 3 個月、8 次以上；智能障礙為 3 個月以上。情障另需至少 1 次個案會議紀錄。詳見「介入紀錄」。
+
+              </p>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="flex items-start gap-4">
+<div class="flex flex-col items-center">
+<div class="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-sm shadow">3</div>
+<div class="w-0.5 h-12 bg-slate-300"></div>
+</div>
+<div class="flex-1 bg-slate-50 border border-slate-200 rounded-xl p-4">
+<h4 class="font-bold text-slate-800 text-sm sm:text-base">輔導介入無效，經家長同意提報鑑定</h4>
+<p class="text-xs text-slate-600 mt-1">由導師與輔導處向法定代理人說明提報權益，取得家長簽署之提報鑑定同意書。</p>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="flex items-start gap-4">
+<div class="flex flex-col items-center">
+<div class="w-10 h-10 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold text-sm shadow">4</div>
+<div class="w-0.5 h-12 bg-slate-300"></div>
+</div>
+<div class="flex-1 bg-slate-50 border border-slate-200 rounded-xl p-4">
+<h4 class="font-bold text-slate-800 text-sm sm:text-base">學習中心（資源班）收集資料進行初篩</h4>
+<p class="text-xs text-slate-600 mt-1">學習中心教師實施標準化常模測驗、學業測驗、晤談並調閱輔導紀錄資料。</p>
+</div>
+</div>
+<!-- Step 5 -->
+<div class="flex items-start gap-4">
+<div class="flex flex-col items-center">
+<div class="w-10 h-10 rounded-full bg-purple-600 text-white flex items-center justify-center font-bold text-sm shadow">5</div>
+<div class="w-0.5 h-12 bg-slate-300"></div>
+</div>
+<div class="flex-1 bg-slate-50 border border-slate-200 rounded-xl p-4">
+<h4 class="font-bold text-slate-800 text-sm sm:text-base">達初篩標準，經民德國中「特推會」決議提報鑑輔會</h4>
+<p class="text-xs text-slate-600 mt-1">召開校內特殊教育推行委員會（特推會），審議個案資料後正式行文提報。</p>
+</div>
+</div>
+<!-- Step 6 -->
+<div class="flex items-start gap-4">
+<div class="flex flex-col items-center">
+<div class="w-10 h-10 rounded-full bg-teal-600 text-white flex items-center justify-center font-bold text-sm shadow">6</div>
+<div class="w-0.5 h-12 bg-slate-300"></div>
+</div>
+<div class="flex-1 bg-slate-50 border border-slate-200 rounded-xl p-4">
+<h4 class="font-bold text-slate-800 text-sm sm:text-base">學習中心撰寫心理評量綜合報告送件</h4>
+<p class="text-xs text-slate-600 mt-1">學習中心心評教師完成專業測驗報告、鑑定綜合研判表，送交臺南市鑑輔會審議。</p>
+</div>
+</div>
+<!-- Step 7: 鑑輔會完成鑑定 -->
+<div class="flex items-start gap-4">
+<div class="flex flex-col items-center">
+<div class="w-10 h-10 rounded-full bg-emerald-700 text-white flex items-center justify-center font-bold text-sm shadow">7</div>
+<div class="w-0.5 h-16 bg-slate-300"></div>
+</div>
+<div class="flex-1 bg-emerald-50 border border-emerald-300 rounded-xl p-4">
+<h4 class="font-bold text-emerald-900 text-sm sm:text-base">臺南市特殊教育學生鑑定及就學輔導會（鑑輔會）完成鑑定</h4>
+<p class="text-xs text-emerald-800 mt-1">由市府鑑輔委員會專業團隊進行綜合審查與結果判定。</p>
+</div>
+</div>
+<!-- Branches (Final Results) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pl-0 sm:pl-14">
+<!-- Branch 1: 正式個案 -->
+<div class="bg-gradient-to-br from-emerald-50 to-teal-50 border-2 border-emerald-500 rounded-xl p-4 text-emerald-950 shadow-sm">
+<div class="flex items-center gap-2 font-bold text-sm sm:text-base text-emerald-800">
+<i class="fa-solid fa-circle-check text-emerald-600 text-lg"></i> 正式特殊需求個案
+
+              </div>
+<div class="mt-2 text-xs text-slate-700 bg-white/80 p-2.5 rounded-lg border border-emerald-200">
+<strong>後續服務：</strong>
+
+                新學期正式提供特教服務（學習中心排課、抽離/外加教學、擬定個別化教育計畫 IEP、考試評量調整服務）。
+
+              </div>
+</div>
+<!-- Branch 2: 非特殊需求個案 -->
+<div class="bg-slate-50 border border-slate-300 rounded-xl p-4 text-slate-800 shadow-sm">
+<div class="flex items-center gap-2 font-bold text-sm sm:text-base text-slate-700">
+<i class="fa-solid fa-circle-xmark text-slate-400 text-lg"></i> 非特殊需求個案
+
+              </div>
+<div class="mt-2 text-xs text-slate-600 bg-white p-2.5 rounded-lg border border-slate-200">
+<strong>輔導銜接：</strong>
+
+                回歸普通教育系統，由導師與輔導室持續提供學習扶助或二級輔導支持。
+
+              </div>
+</div>
+</div>
+</div>
+</div>
+<!-- Other disabilities note -->
+<div class="bg-blue-50 border border-blue-200 rounded-xl p-4 flex items-start gap-3">
+<i class="fa-solid fa-hand-holding-heart text-blue-600 text-lg mt-0.5"></i>
+<div class="text-xs sm:text-sm text-blue-900 leading-relaxed">
+<strong>※ 持有醫療診斷證明或身心障礙手冊的其他類別特殊生提醒：</strong><br/>
+
+          若是拿醫院診斷證明或身心障礙手冊的其他類別特殊需求學生（如肢體障礙、聽覺障礙、視覺障礙、身體病弱等），
+
+          <strong>請直接知會學習中心（資源班）</strong>，特教老師將依個案具體情況評估是否需提報鑑輔會取得正式特教生資格及申請相關輔具/專業團隊服務！
+
+        </div>
+</div>
+</section>
+<section aria-labelledby="btn-intervention" class="tab-content hidden space-y-6" id="tab-intervention" tabindex="-1"><div class="border-b border-slate-200 pb-3"><h2 class="text-xl font-bold text-slate-900"><i class="fa-solid fa-clipboard-check text-emerald-600"></i> 轉介前介入紀錄與送件檢核</h2><p class="text-sm text-slate-500 mt-1">依《民德國中特教鑑定與輔導規範對照表+MR》整理，請按障礙類別查閱期程、醫療文件及書面佐證。</p></div><div class="bg-white rounded-2xl border border-slate-200 p-4 sm:p-6 shadow-sm space-y-4" id="intervention-0"><h3 class="text-lg font-bold text-slate-900">學習障礙（SLD）</h3><div class="grid grid-cols-1 md:grid-cols-3 gap-4"><div class="bg-slate-50 rounded-xl p-4"><h4 class="font-bold text-slate-900 mb-2">介入輔導與期程</h4><p>一般教育學科補救／介入至少 3 個月以上，至少 8 次以上，需呈現顯著進步困難。</p></div><div class="bg-slate-50 rounded-xl p-4"><h4 class="font-bold text-slate-900 mb-2">醫療文件與效期</h4><p>非必要附診斷；若伴隨注意力不集中，需檢附醫療評估，以排除／澄清 ADHD 影響。</p></div><div class="bg-slate-50 rounded-xl p-4"><h4 class="font-bold text-slate-900 mb-2">導師應備佐證</h4><ul class="list-disc pl-5 space-y-1"><li>學科補救／介入紀錄本</li><li>定期評量試卷前後測對照</li><li>作業抄寫本／錯題歷程照片</li></ul></div></div></div><div class="bg-white rounded-2xl border border-slate-200 p-4 sm:p-6 shadow-sm space-y-4" id="intervention-1"><h3 class="text-lg font-bold text-slate-900">情緒行為障礙（EBD）</h3><div class="grid grid-cols-1 md:grid-cols-3 gap-4"><div class="bg-slate-50 rounded-xl p-4"><h4 class="font-bold text-slate-900 mb-2">介入輔導與期程</h4><p>輔導室／輔導教師輔導達 3 個月、8 次以上，且至少 1 次個案會議紀錄。</p></div><div class="bg-slate-50 rounded-xl p-4"><h4 class="font-bold text-slate-900 mb-2">醫療文件與效期</h4><p>須有持續就醫及治療／處方紀錄；診斷書須為 6 個月內。ADHD 醫療持續 1 年；其他疾患持續半年。文件包含身心科／兒童心智科診斷證明、藥袋、用藥醫囑單。</p></div><div class="bg-slate-50 rounded-xl p-4"><h4 class="font-bold text-slate-900 mb-2">導師應備佐證</h4><ul class="list-disc pl-5 space-y-1"><li>輔導諮商紀錄表</li><li>在校學習生活適應調查表（跨課堂教師）</li><li>行為衝突與處置紀錄</li></ul></div></div></div><div class="bg-white rounded-2xl border border-slate-200 p-4 sm:p-6 shadow-sm space-y-4" id="intervention-2"><h3 class="text-lg font-bold text-slate-900">自閉症／亞斯伯格（ASD）</h3><div class="grid grid-cols-1 md:grid-cols-3 gap-4"><div class="bg-slate-50 rounded-xl p-4"><h4 class="font-bold text-slate-900 mb-2">介入輔導與期程</h4><p>輔導老師輔導達 3 個月以上、8 次以上，包含社會互動與環境適應輔導。</p></div><div class="bg-slate-50 rounded-xl p-4"><h4 class="font-bold text-slate-900 mb-2">醫療文件與效期</h4><p>須有區域級以上醫院專科診斷（如成大、奇美、安南等）；診斷書須為 6 個月內。</p></div><div class="bg-slate-50 rounded-xl p-4"><h4 class="font-bold text-slate-900 mb-2">導師應備佐證</h4><ul class="list-disc pl-5 space-y-1"><li>社交人際互動觀察紀錄</li><li>固著行為事件簿</li><li>感官敏感因應及課堂調整措施表</li></ul></div></div></div><div class="bg-white rounded-2xl border border-slate-200 p-4 sm:p-6 shadow-sm space-y-4" id="intervention-3"><h3 class="text-lg font-bold text-slate-900">智能障礙（MR／ID）</h3><div class="grid grid-cols-1 md:grid-cols-3 gap-4"><div class="bg-slate-50 rounded-xl p-4"><h4 class="font-bold text-slate-900 mb-2">介入輔導與期程</h4><p>須有學習與適應輔導紀錄；補救教學或生活適應輔導達 3 個月以上，呈現心智或適應困難。文件未另列最低次數。</p></div><div class="bg-slate-50 rounded-xl p-4"><h4 class="font-bold text-slate-900 mb-2">醫療文件與效期</h4><p>須附智力測驗報告或身心障礙證明。檢附 1 年內魏氏智力測驗 IQ≤70 報告／診斷證明書，或有效期限超過 3 個月的身心障礙證明；診斷證明書另依文件共通效期規定，須為 6 個月內。</p></div><div class="bg-slate-50 rounded-xl p-4"><h4 class="font-bold text-slate-900 mb-2">導師應備佐證</h4><ul class="list-disc pl-5 space-y-1"><li>學科補救教學紀錄表</li><li>定期評量成績差異表</li><li>生活適應行為觀察量表與適應評估</li></ul></div></div></div><div class="bg-white rounded-2xl border border-slate-200 p-4 sm:p-6"><h3 class="font-bold text-slate-900 mb-2">文件效期重點</h3><ul class="list-disc pl-5 space-y-2"><li>醫院診斷證明書：須為 <strong>6 個月內</strong>。</li><li>魏氏智力測驗：須為 <strong>1 年內</strong>。</li><li>身心障礙證明：有效期限須 <strong>3 個月以上</strong>；智能障礙欄另寫「效期 &gt; 3 個月」，送件時請確認符合該欄要求。</li></ul><p class="text-sm text-slate-500 mt-3">以上依上傳文件整理；身心障礙證明效期保留文件各欄的原始表述。</p></div><div class="bg-white rounded-2xl border border-slate-200 p-4 sm:p-6"><h3 class="font-bold text-slate-900 mb-2">提報前導師自我檢核</h3><p class="text-sm text-slate-500 mb-4">依個案類別確認適用項目；勾選僅供本次查閱，不會送出或儲存。</p><div class="grid grid-cols-1 md:grid-cols-2 gap-3"><label class="flex items-start gap-3 p-3 bg-slate-50 rounded-xl cursor-pointer min-h-[48px]"><input class="flex-shrink-0" style="min-height:20px;width:20px;margin-top:4px" type="checkbox"/><span>已與家長溝通學生的學習與適應狀況，確認提報意願。</span></label><label class="flex items-start gap-3 p-3 bg-slate-50 rounded-xl cursor-pointer min-h-[48px]"><input class="flex-shrink-0" style="min-height:20px;width:20px;margin-top:4px" type="checkbox"/><span>已依擬提報類別完成介入期程；學障、情障、自閉症達 8 次以上，智能障礙依文件為 3 個月以上。</span></label><label class="flex items-start gap-3 p-3 bg-slate-50 rounded-xl cursor-pointer min-h-[48px]"><input class="flex-shrink-0" style="min-height:20px;width:20px;margin-top:4px" type="checkbox"/><span>情障已備至少 1 次個案會議紀錄，並確認 ADHD 持續醫療 1 年／其他疾患半年。</span></label><label class="flex items-start gap-3 p-3 bg-slate-50 rounded-xl cursor-pointer min-h-[48px]"><input class="flex-shrink-0" style="min-height:20px;width:20px;margin-top:4px" type="checkbox"/><span>已依類別備妥醫療評估、治療／處方紀錄或區域級以上醫院專科診斷。</span></label><label class="flex items-start gap-3 p-3 bg-slate-50 rounded-xl cursor-pointer min-h-[48px]"><input class="flex-shrink-0" style="min-height:20px;width:20px;margin-top:4px" type="checkbox"/><span>已確認診斷書 6 個月內、魏氏智力測驗 1 年內及身心障礙證明效期。</span></label><label class="flex items-start gap-3 p-3 bg-slate-50 rounded-xl cursor-pointer min-h-[48px]"><input class="flex-shrink-0" style="min-height:20px;width:20px;margin-top:4px" type="checkbox"/><span>已備妥該類別要求的學科、輔導、跨課堂觀察或生活適應書面佐證。</span></label></div></div></section>
+<section aria-labelledby="btn-gov" class="tab-content hidden space-y-6" id="tab-gov" tabindex="-1">
+<div class="border-b border-slate-200 pb-3">
+<h2 class="text-xl font-bold text-slate-900 flex items-center gap-2">
+<i class="fa-solid fa-landmark text-indigo-600"></i> 政府官方特教專區與法規資訊導航
+
+        </h2>
+<p class="text-sm text-slate-500 mt-1">教育部國教署與臺南市政府教育局特幼教育科官方平台匯流</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+<!-- Portal 1: Updated with active URL https://serc.tn.edu.tw/ -->
+<a class="group bg-white rounded-2xl border border-slate-200 p-5 shadow-sm hover:shadow-md hover:border-emerald-400 transition flex flex-col justify-between" href="https://serc.tn.edu.tw/" rel="noopener noreferrer" target="_blank">
+<div>
+<div class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center text-lg mb-3 group-hover:scale-110 transition">
+<i class="fa-solid fa-map-location-dot"></i>
+</div>
+<h3 class="font-bold text-slate-900 text-base mb-1 group-hover:text-emerald-700 transition">臺南市特教資訊網（特教資源中心）</h3>
+<p class="text-xs text-slate-500 leading-relaxed mb-4">
+
+              臺南市政府教育局特幼教育科官方平台。提供本市鑑輔會鑑定安置最新公文、研習資訊、特教輔具申請及巡迴輔導服務公告。
+
+            </p>
+</div>
+<div class="text-xs font-semibold text-emerald-700 flex items-center gap-1">
+
+            進入官方網站 <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+</div>
+</a>
+<!-- Portal 2 -->
+<a class="group bg-white rounded-2xl border border-slate-200 p-5 shadow-sm hover:shadow-md hover:border-blue-400 transition flex flex-col justify-between" href="https://www.set.edu.tw/" rel="noopener noreferrer" target="_blank">
+<div>
+<div class="w-10 h-10 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center text-lg mb-3 group-hover:scale-110 transition">
+<i class="fa-solid fa-network-wired"></i>
+</div>
+<h3 class="font-bold text-slate-900 text-base mb-1 group-hover:text-blue-700 transition">教育部特殊教育通報網</h3>
+<p class="text-xs text-slate-500 leading-relaxed mb-4">
+
+              全國特殊教育資訊管理核心系統。供導師查詢全台特殊教育統計、個別化教育計畫（IEP）填報指引與各障礙類別鑑定規程。
+
+            </p>
+</div>
+<div class="text-xs font-semibold text-blue-700 flex items-center gap-1">
+
+            進入官方網站 <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+</div>
+</a>
+<!-- Portal 3 -->
+<a class="group bg-white rounded-2xl border border-slate-200 p-5 shadow-sm hover:shadow-md hover:border-purple-400 transition flex flex-col justify-between" href="https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=H0080027" rel="noopener noreferrer" target="_blank">
+<div>
+<div class="w-10 h-10 rounded-xl bg-purple-100 text-purple-700 flex items-center justify-center text-lg mb-3 group-hover:scale-110 transition">
+<i class="fa-solid fa-scale-balanced"></i>
+</div>
+<h3 class="font-bold text-slate-900 text-base mb-1 group-hover:text-purple-700 transition">中華民國特殊教育法</h3>
+<p class="text-xs text-slate-500 leading-relaxed mb-4">
+
+              全國法規資料庫最新修正特教母法。詳載身心障礙學生鑑定標準、教育安置、無障礙環境、評量調整及家長參與權利規範。
+
+            </p>
+</div>
+<div class="text-xs font-semibold text-purple-700 flex items-center gap-1">
+
+            查閱法規條文 <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+</div>
+</a>
+<!-- Portal 4 -->
+<a class="group bg-white rounded-2xl border border-slate-200 p-5 shadow-sm hover:shadow-md hover:border-amber-400 transition flex flex-col justify-between" href="https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=H0080065" rel="noopener noreferrer" target="_blank">
+<div>
+<div class="w-10 h-10 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center text-lg mb-3 group-hover:scale-110 transition">
+<i class="fa-solid fa-book-bookmark"></i>
+</div>
+<h3 class="font-bold text-slate-900 text-base mb-1 group-hover:text-amber-700 transition">身心障礙學生鑑定辦法</h3>
+<p class="text-xs text-slate-500 leading-relaxed mb-4">
+
+              中央主管機關訂定之各類身心障礙學生鑑定標準細則（包含學習障礙、自閉症、情障、智障之法定鑑定指標與心評規範）。
+
+            </p>
+</div>
+<div class="text-xs font-semibold text-amber-700 flex items-center gap-1">
+
+            查閱鑑定標準 <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+</div>
+</a>
+<!-- Portal 5: Updated with official modern HTTPS portal https://www.tn.edu.tw/ -->
+<a class="group bg-white rounded-2xl border border-slate-200 p-5 shadow-sm hover:shadow-md hover:border-teal-400 transition flex flex-col justify-between" href="https://www.tn.edu.tw/" rel="noopener noreferrer" target="_blank">
+<div>
+<div class="w-10 h-10 rounded-xl bg-teal-100 text-teal-700 flex items-center justify-center text-lg mb-3 group-hover:scale-110 transition">
+<i class="fa-solid fa-building-columns"></i>
+</div>
+<h3 class="font-bold text-slate-900 text-base mb-1 group-hover:text-teal-700 transition">臺南市政府教育局</h3>
+<p class="text-xs text-slate-500 leading-relaxed mb-4">
+
+              局端公務公告及各學期行事曆、國中教育階段特殊教育安置期程與輔導室工作指引。
+
+            </p>
+</div>
+<div class="text-xs font-semibold text-teal-700 flex items-center gap-1">
+
+            進入教育局首頁 <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+</div>
+</a>
+<!-- Portal 6: Updated with 行政大樓 and 學習中心 -->
+<div class="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl border border-emerald-200 p-5 shadow-sm flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center text-lg mb-3">
+<i class="fa-solid fa-phone"></i>
+</div>
+<h3 class="font-bold text-emerald-950 text-base mb-1">民德國中校內特教聯繫專線</h3>
+<p class="text-xs text-emerald-800 leading-relaxed mb-3">
+
+              若有任何表件填寫疑義或個案狀況欲面談，歡迎直接聯絡輔導室學習中心：
+
+            </p>
+<ul class="text-xs text-slate-700 space-y-1">
+<li>📞 <strong>輔導室 學習中心（資源班）：</strong>分機 57</li>
+<li>🏫 <strong>學習中心（資源班）：</strong>行政大樓3F</li>
+</ul>
+</div>
+<div class="mt-4 pt-3 border-t border-emerald-200/60 text-xs text-emerald-800 font-medium">
+
+            全體特教老師竭誠為您與孩子服務！
+
+          </div>
+</div>
+</div>
+</section>
+<section aria-labelledby="btn-chat" class="tab-content hidden space-y-4" id="tab-chat" tabindex="-1">
+<div class="bg-white rounded-2xl border border-slate-200 shadow-sm flex flex-col h-[520px] sm:h-[620px] max-h-[75vh]">
+<!-- Chat Header -->
+<div class="p-3 sm:p-4 border-b border-slate-200 flex items-center justify-between bg-slate-50 rounded-t-2xl flex-shrink-0">
+<div class="flex items-center space-x-2.5 sm:space-x-3 min-w-0">
+<div class="relative flex-shrink-0">
+<div class="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-emerald-600 text-white flex items-center justify-center font-bold">
+<i class="fa-solid fa-user-doctor text-sm sm:text-base"></i>
+</div>
+<span class="absolute bottom-0 right-0 w-2.5 h-2.5 bg-green-500 border-2 border-white rounded-full"></span>
+</div>
+<div class="min-w-0">
+<h3 class="font-bold text-slate-900 text-xs sm:text-base flex items-center gap-1.5 truncate">
+
+                民德學習中心線上客服
+
+                <span class="text-[10px] bg-emerald-100 text-emerald-800 px-1.5 py-0.5 rounded-full font-semibold whitespace-nowrap">資料查詢助手</span>
+</h3>
+<p class="text-[11px] text-slate-500 truncate hidden xs:block">校內特質手冊、臺南市鑑輔會鑑定規程諮詢</p>
+</div>
+</div>
+<button class="text-xs text-slate-500 hover:text-slate-700 px-2.5 py-1.5 rounded-lg hover:bg-slate-200/60 active:bg-slate-200 transition touch-manipulation flex-shrink-0" onclick="clearChat()" title="清空對話">
+<i class="fa-solid fa-arrow-rotate-left"></i> 清空
+
+          </button>
+</div>
+<!-- Preset Quick Questions -->
+<div class="px-3 py-2 bg-slate-100/80 border-b border-slate-200 flex items-center gap-1.5 overflow-x-auto text-xs whitespace-nowrap no-scrollbar flex-shrink-0">
+<span class="text-slate-500 font-medium flex items-center gap-1 flex-shrink-0"><i class="fa-solid fa-lightbulb text-amber-500"></i> 快問：</span>
+<button class="px-2.5 py-1 bg-white hover:bg-emerald-50 hover:text-emerald-700 active:bg-emerald-100 border border-slate-200 rounded-full transition touch-manipulation" onclick="askQuickQuestion('什麼是學習障礙？班上有孩子抄寫老是漏字、算數一直搞不懂，算嗎？')">學障辨識</button>
+<button class="px-2.5 py-1 bg-white hover:bg-emerald-50 hover:text-emerald-700 active:bg-emerald-100 border border-slate-200 rounded-full transition touch-manipulation" onclick="askQuickQuestion('請問情障提報一定要有持續就醫服藥紀錄嗎？需要滿三個月嗎？')">情障就醫規定</button>
+<button class="px-2.5 py-1 bg-white hover:bg-emerald-50 hover:text-emerald-700 active:bg-emerald-100 border border-slate-200 rounded-full transition touch-manipulation" onclick="askQuickQuestion('臺南市自閉症(亞斯)提報鑑定，診所就醫紀錄可以嗎？')">自閉大醫院要求</button>
+<button class="px-2.5 py-1 bg-white hover:bg-emerald-50 hover:text-emerald-700 active:bg-emerald-100 border border-slate-200 rounded-full transition touch-manipulation" onclick="askQuickQuestion('孩子上課注意力不集中、常常發呆坐不住，是學障還是過動？')">注意力與學障排除</button>
+<button class="px-2.5 py-1 bg-white hover:bg-emerald-50 hover:text-emerald-700 active:bg-emerald-100 border border-slate-200 rounded-full transition touch-manipulation" onclick="askQuickQuestion('普通班有哪些評量調整方式可以先幫疑似生減輕負擔？')">評量調整策略</button>
+</div>
+<!-- Chat Message Area -->
+<div aria-live="polite" class="flex-1 overflow-y-auto p-3 sm:p-4 space-y-3.5 overscroll-contain" id="chatMessages" role="log">
+<!-- Initial Welcome Message -->
+<div class="flex items-start gap-2.5 sm:gap-3">
+<div class="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-emerald-600 text-white flex-shrink-0 flex items-center justify-center text-xs font-bold shadow-xs">
+<i class="fa-solid fa-graduation-cap"></i>
+</div>
+<div class="chat-bubble-ai p-3.5 sm:p-4 text-xs sm:text-sm text-slate-800 shadow-xs max-w-[90%] sm:max-w-[85%] space-y-2">
+<p>老師您好！我是<strong>民德國中學習中心（資源班）的特教諮詢夥伴</strong> 🤝。</p>
+<p>依本平台既有內容提供關鍵字問答，未串接生成式 AI；無法判斷的問題請洽學習中心。您可以詢問：</p>
+<ul class="list-disc pl-4 space-y-1 text-slate-600">
+<li>學生在班上的行為特徵是否疑似「學障、情障、自閉症或智障」？</li>
+<li>各障礙類別的介入期程、次數與佐證文件如何準備？</li>
+<li>情障/自閉症之醫療院所證明與服藥紀錄規定？</li>
+<li>段考報讀、延長時間、少字或分段抽離等課堂調整策略？</li>
+</ul>
+<p class="text-emerald-800 font-medium pt-0.5">請在下方輸入問題或點選上方快問按鈕！</p>
+</div>
+</div>
+</div>
+<!-- Input Box -->
+<div class="p-2.5 sm:p-3.5 border-t border-slate-200 bg-white rounded-b-2xl flex-shrink-0">
+<form class="flex gap-2" id="chatForm" onsubmit="handleChatSubmit(event)">
+<input aria-label="輸入資料查詢問題" autocomplete="off" class="flex-1 px-3.5 py-2 sm:py-2.5 text-sm border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition touch-manipulation" id="userInput" placeholder="輸入問題諮詢學生特質、紀錄或鑑定流程..." type="text"/>
+<button class="px-4 sm:px-5 py-2 sm:py-2.5 bg-emerald-600 hover:bg-emerald-700 active:scale-95 text-white text-xs sm:text-sm font-semibold rounded-xl flex items-center gap-1.5 shadow transition disabled:opacity-50 touch-manipulation flex-shrink-0" id="sendBtn" type="submit">
+<span>送出</span>
+<i class="fa-solid fa-paper-plane text-xs"></i>
+</button>
+</form>
+<div class="flex items-center justify-between text-[10px] sm:text-[11px] text-slate-400 mt-1.5 px-1">
+<span>民德國中學習中心特教支援</span>
+<span class="flex items-center gap-1"><i class="fa-solid fa-shield-halved text-emerald-600"></i> 勿輸入學生全名</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-white border-t border-slate-200 py-6 mt-8">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-xs text-slate-500 space-y-2">
+<p class="font-medium text-slate-700">臺南市立民德國中 輔導室 學習中心（資源班）</p>
+<p>校址：704 臺南市北區西門路三段223號 ｜ 學校電話：(06) 222-3014 ｜ 學習中心特教諮詢分機：57 ｜ 地點：行政大樓3F</p>
+<p class="text-[11px] text-slate-400">本系統專供校內教職員教學諮詢輔導使用，資訊依臺南市教育局與教育部最新特教法規為準。</p>
+</div>
+</footer>
+<!-- Notification Toast Container -->
+<div class="fixed bottom-5 right-5 z-50 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none bg-slate-900 text-white px-4 py-3 rounded-xl shadow-xl flex items-center gap-3 text-xs" id="toast">
+<i class="fa-solid fa-circle-info text-emerald-400 text-base" id="toastIcon"></i>
+<span id="toastMsg">已複製到剪貼簿</span>
+</div>
+<script>
+
+    // Tab switching logic safe for Google Sites iframe embedding
+
+    function switchTab(targetTabId) {
+
+      // Hide all contents
+
+      document.querySelectorAll('.tab-content').forEach(el => {
+
+        el.classList.add('hidden');
+
+      });
+
+      // Deactivate all buttons
+
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+
+        btn.classList.remove('bg-white', 'text-emerald-700', 'shadow-xs', 'border', 'border-slate-200');
+
+        btn.classList.add('text-slate-600');
+
+      });
+
+
+
+      // Show target
+
+      const target = document.getElementById(targetTabId);
+
+      if (target) {
+
+        target.classList.remove('hidden');
+
+      }
+
+
+
+      // Activate target button
+
+      const btnMap = {
+
+        'tab-traits': 'btn-traits',
+
+        'tab-process': 'btn-process',
+
+        'tab-intervention': 'btn-intervention',
+
+        'tab-gov': 'btn-gov',
+
+        'tab-chat': 'btn-chat',
+
+      };
+
+      const activeBtn = document.getElementById(btnMap[targetTabId]);
+
+      if (activeBtn) {
+
+        activeBtn.classList.add('bg-white', 'text-emerald-700', 'shadow-xs', 'border', 'border-slate-200');
+
+        activeBtn.classList.remove('text-slate-600');
+
+
+
+        // Auto horizontally center active button on mobile nav bar
+
+        activeBtn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+
+      }
+
+
+
+      // Safe scroll: inside iframe avoid harsh window jump
+
+      try {
+
+        if (window.self === window.top) {
+
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+
+        } else {
+
+          document.body.scrollTop = 0;
+
+          document.documentElement.scrollTop = 0;
+
+        }
+
+      } catch (e) {
+
+        // Fallback for sandboxed iframe
+
+      }
+
+
+
+      // Notify parent frame (Google Sites) of height change
+
+      postIframeHeight();
+
+    }
+
+
+
+    // Scroll directly to target element inside iframe safely
+
+    function scrollToElement(elemId) {
+
+      const el = document.getElementById(elemId);
+
+      if (el) {
+
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+      }
+
+    }
+
+
+
+    // Inform Google Sites of inner height dynamically to prevent clipping
+
+    function postIframeHeight() {
+
+      try {
+
+        const height = document.documentElement.scrollHeight || document.body.scrollHeight;
+
+        if (window.parent && window.parent !== window) {
+
+          window.parent.postMessage({ type: 'resize', height: height }, '*');
+
+        }
+
+      } catch (err) {
+
+        // Ignored in cross-origin sandbox
+
+      }
+
+    }
+
+    window.addEventListener('load', postIframeHeight);
+
+    window.addEventListener('resize', postIframeHeight);
+
+
+
+    // Quick toast
+
+    function showToast(message, isSuccess = true) {
+
+      const toast = document.getElementById('toast');
+
+      const toastMsg = document.getElementById('toastMsg');
+
+      const toastIcon = document.getElementById('toastIcon');
+
+      toastMsg.textContent = message;
+
+      toastIcon.className = isSuccess 
+
+        ? "fa-solid fa-circle-check text-emerald-400 text-base"
+
+        : "fa-solid fa-circle-exclamation text-amber-400 text-base";
+
+      toast.classList.remove('translate-y-20', 'opacity-0');
+
+      setTimeout(() => {
+
+        toast.classList.add('translate-y-20', 'opacity-0');
+
+      }, 3000);
+
+    }
+
+
+
+    // -------------------------------------------------------------
+
+    // KNOWLEDGE BASE (Updated location: 行政大樓3F, Unit: 學習中心 分機57)
+
+    // -------------------------------------------------------------
+
+    const SPECIAL_ED_CONTEXT = `
+
+你現在是「臺南市立民德國中」學習中心（資源班）的特教專業諮詢夥伴。地點位於校內「行政大樓3F」，諮詢分機為 57。
+
+你的任務是協助民德國中全校普通班導師、任課老師解答有關特殊需求學生（學障、智障、情障、自閉症）的特質辨識、班級輔導以及臺南市鑑輔會鑑定提報流程。校內所有特殊教育送件與初篩窗口皆為「學習中心」，資源班無導師室稱呼，統稱「學習中心（資源班）」。
+
+
+
+【核心參照資料如下】：
+
+附件A：普通班內常見的特殊需求學生及其特質
+
+(A) 學習障礙 (SLD)：
+
+- 定義：神經心理功能異常而顯現出注意、記憶、理解、知覺、知覺動作、推理等能力有問題，致在聽、說、讀、寫或算等學習上有顯著困難者，且經確定一般教育所提供之介入，仍難有效改善；其障礙並非因感官、智能、情緒等障礙因素或文化刺激不足、教學不當等環境因素所直接造成之結果。
+
+- 疑似閱讀-認字困難：唸讀文章不順暢；容易跳字念錯；詞彙認讀可，但讀出單獨字困難；報讀成績比自行讀題成績較佳…等。
+
+- 疑似閱讀-理解困難：閱讀不流暢；詞彙理解應用弱；推論統整訊息有困難；閱讀理解(詞意、句意、文意)題目一致呈現20~40%正確率…等。
+
+- 疑似書寫困難：近端、遠端抄寫錯誤嚴重；同一國字反覆抄寫，抄錯狀況頻繁；經過教導與練習後聽寫狀況不佳、自發性提取困難、有增減筆畫、部件、組字規則、部首錯置等情形。
+
+- 疑似數學運算困難：基本運算(加、減、乘)困難；自動化提取能力差；經過介入教學足夠練習後仍未達穩定狀態…等。
+
+※ 關鍵提醒：若孩子有注意力方面的問題，建議家長就醫先以藥物、行為治療介入，介入後成績若有提升就不是學障生（排除單純ADHD影響）。
+
+
+
+(B) 智能障礙 (ID)：
+
+- 個人之智能發展較同年齡者明顯遲緩，心智功能明顯低下或個別智力測驗結果未達平均數負二個標準差（標準分數70↓）。
+
+- 在學習及生活適應能力表現上較同齡者有顯著困難情形。
+
+- 需有醫療診斷證明/身心障礙證明智力測驗分數70↓、適應行為(社會知能、概念知能及實用技巧)有顯著障礙，整體學業、適應行為表現都不佳。
+
+
+
+(C) 情緒行為障礙 (EBD)：
+
+- 長期情緒或行為表現顯著異常，嚴重影響學校適應者；其障礙非因智能、感官或健康等因素直接造成之結果。經一般教育所提供之介入，仍難獲得有效改善。
+
+- 醫療診斷證明/身心障礙證明；學業、社會、人際、生活等適應有顯著困難，注意力過動衝動、情緒起伏很大、過度焦慮或畏懼…等跨情境的情緒行為問題。
+
+
+
+(D) 自閉症 (亞斯伯格, ASD)：
+
+- 因神經心理功能異常而顯現出溝通、社會互動、行為及興趣表現上有嚴重問題，致在學習及生活適應上有顯著困難者。
+
+- 醫療診斷/醫療證明；社會互動、社會溝通、生活適應顯著困難。眼神接觸或口語溝通少、社交能力弱、表現固定而有限之行為模式與興趣…等。
+
+
+
+附件B：臺南市針對疑似特殊需求(學障/情障/自閉症)學生的鑑定流程
+
+1. 導師、任課老師察覺學生特殊需求
+
+2. 依障礙類別完成轉介前介入輔導
+
+3. 輔導無效，經過家長同意，提報鑑定
+
+4. 學習中心收集資料進行初篩
+
+5. 達初篩標準，經特推會決議提報鑑輔會鑑定
+
+6. 學習中心撰寫報告送件
+
+7. 鑑輔會完成鑑定 -> 判定為正式特殊需求個案(新學期提供特教服務) 或 非特殊需求個案(回歸普通輔導)
+
+
+
+*介入輔導必備規範（依上傳對照表）*：
+學習障礙（SLD）：一般教育學科補救／介入至少 3 個月以上，至少 8 次以上，需呈現顯著進步困難。 非必要附診斷；若伴隨注意力不集中，需檢附醫療評估，以排除／澄清 ADHD 影響。 佐證：學科補救／介入紀錄本、定期評量試卷前後測對照、作業抄寫本／錯題歷程照片。
+情緒行為障礙（EBD）：輔導室／輔導教師輔導達 3 個月、8 次以上，且至少 1 次個案會議紀錄。 須有持續就醫及治療／處方紀錄；診斷書須為 6 個月內。ADHD 醫療持續 1 年；其他疾患持續半年。文件包含身心科／兒童心智科診斷證明、藥袋、用藥醫囑單。 佐證：輔導諮商紀錄表、在校學習生活適應調查表（跨課堂教師）、行為衝突與處置紀錄。
+自閉症／亞斯伯格（ASD）：輔導老師輔導達 3 個月以上、8 次以上，包含社會互動與環境適應輔導。 須有區域級以上醫院專科診斷（如成大、奇美、安南等）；診斷書須為 6 個月內。 佐證：社交人際互動觀察紀錄、固著行為事件簿、感官敏感因應及課堂調整措施表。
+智能障礙（MR／ID）：須有學習與適應輔導紀錄；補救教學或生活適應輔導達 3 個月以上，呈現心智或適應困難。文件未另列最低次數。 須附智力測驗報告或身心障礙證明。檢附 1 年內魏氏智力測驗 IQ≤70 報告／診斷證明書，或有效期限超過 3 個月的身心障礙證明；診斷證明書另依文件共通效期規定，須為 6 個月內。 佐證：學科補救教學紀錄表、定期評量成績差異表、生活適應行為觀察量表與適應評估。
+`;
+
+
+
+    const INTERVENTION_RULES = [{"name": "學習障礙（SLD）", "period": "一般教育學科補救／介入至少 3 個月以上，至少 8 次以上，需呈現顯著進步困難。", "medical": "非必要附診斷；若伴隨注意力不集中，需檢附醫療評估，以排除／澄清 ADHD 影響。", "evidence": ["學科補救／介入紀錄本", "定期評量試卷前後測對照", "作業抄寫本／錯題歷程照片"]}, {"name": "情緒行為障礙（EBD）", "period": "輔導室／輔導教師輔導達 3 個月、8 次以上，且至少 1 次個案會議紀錄。", "medical": "須有持續就醫及治療／處方紀錄；診斷書須為 6 個月內。ADHD 醫療持續 1 年；其他疾患持續半年。文件包含身心科／兒童心智科診斷證明、藥袋、用藥醫囑單。", "evidence": ["輔導諮商紀錄表", "在校學習生活適應調查表（跨課堂教師）", "行為衝突與處置紀錄"]}, {"name": "自閉症／亞斯伯格（ASD）", "period": "輔導老師輔導達 3 個月以上、8 次以上，包含社會互動與環境適應輔導。", "medical": "須有區域級以上醫院專科診斷（如成大、奇美、安南等）；診斷書須為 6 個月內。", "evidence": ["社交人際互動觀察紀錄", "固著行為事件簿", "感官敏感因應及課堂調整措施表"]}, {"name": "智能障礙（MR／ID）", "period": "須有學習與適應輔導紀錄；補救教學或生活適應輔導達 3 個月以上，呈現心智或適應困難。文件未另列最低次數。", "medical": "須附智力測驗報告或身心障礙證明。檢附 1 年內魏氏智力測驗 IQ≤70 報告／診斷證明書，或有效期限超過 3 個月的身心障礙證明；診斷證明書另依文件共通效期規定，須為 6 個月內。", "evidence": ["學科補救教學紀錄表", "定期評量成績差異表", "生活適應行為觀察量表與適應評估"]}];
+    function interventionAnswer(query) {
+      const q=query.toLowerCase();
+      let index=-1;
+      if (/學障|學習障礙|sld/.test(q)) index=0;
+      else if (/情障|情緒行為|ebd|adhd/.test(q)) index=1;
+      else if (/自閉|亞斯|asd/.test(q)) index=2;
+      else if (/智能障礙|智障|\bmr\b|\bid\b|魏氏|iq/.test(q)) index=3;
+      const selected=index<0?INTERVENTION_RULES:[INTERVENTION_RULES[index]];
+      return '依《民德國中特教鑑定與輔導規範對照表+MR》整理：\n\n'+selected.map(r=>'**'+r.name+'**\n- **介入期程**：'+r.period+'\n- **醫療文件**：'+r.medical+'\n- **書面佐證**：'+r.evidence.join('、')+'。').join('\n\n')+'\n\n**共通文件效期**：醫院診斷證明書 6 個月內；魏氏智力測驗 1 年內；身心障礙證明有效期限 3 個月以上（智能障礙欄另列超過 3 個月，送件時請確認）。如需確認個案文件，請洽學習中心分機 57。';
+    }
+
+    function generateSmartLocalAnswer(query) {
+
+      const q = query.toLowerCase();
+      if (/介入|紀錄|記錄|提報|送件|醫療|就醫|服藥|處方|診斷|效期|證明|三個月|3個月|3 個月|8次|8 次|個案會議|智能障礙|智障|魏氏|鑑輔會|流程/.test(q)) return interventionAnswer(query);
+
+
+
+
+      if (q.includes('學障') || q.includes('學習障礙') || q.includes('認字') || q.includes('寫字') || q.includes('數學') || q.includes('運算') || q.includes('抄寫')) {
+
+        return `老師您好！關於**學習障礙（SLD）**的辨識與評估：
+
+1. **主要亞型與特徵檢核**：
+
+   - **閱讀認字困難**：朗讀易跳字跳行、讀單獨字困難，但「報讀（聽題目）」成績明顯比自己看題好。
+
+   - **閱讀理解困難**：文意推論差，閱讀理解選擇題答對率常在 20%~40% 左右。
+
+   - **書寫困難**：抄黑板頻繁漏筆畫、部首部件顛倒錯置、反覆抄寫仍記不住。
+
+   - **數學運算困難**：九九乘法或加減基本運算難以自動化提取，反覆介入依然不穩定。
+
+2. **關鍵排除條件**：若孩子平時有注意力不集中或過動，建議請家長先就醫進行藥物或行為治療。**如果治療介入後成績明顯提升，就屬於專注力影響，而非學習障礙**。
+
+3. **提報要件**：必須先有**至少 3 個月以上、次數 8 次以上的學科介入輔導紀錄**（可檢附課後輔導、學習扶助或訂正卷前後對照）。歡迎先帶孩子的作業本至行政大樓3F學習中心找特教老師討論！`;
+
+      }
+
+
+
+      if (q.includes('情障') || q.includes('情緒') || q.includes('暴怒') || q.includes('服藥') || q.includes('就醫')) {
+
+        return `老師您好！關於**情緒行為障礙（EBD）**的提報規定：
+
+1. **核心要件**：長期情緒或行為顯著異常（如過度焦慮、情緒起伏極端、過動衝動），且具備「跨情境性」（在不同課堂、家中或社交場合皆持續出現，嚴重影響學校生活）。
+
+2. **臺南市鑑輔會必備條件**：
+
+   - 輔導室或輔導老師必須介入輔導**達 3 個月以上，且晤談紀錄達 8 次以上**。
+
+   - 至少 **1 次個案會議紀錄**；須有持續就醫及治療／處方紀錄，診斷書 6 個月內；ADHD 醫療持續 1 年、其他疾患半年。
+
+3. 若尚未就醫，建議請輔導室會同導師先引導家長帶孩子至醫院評估，並同步建立二級輔導紀錄哦！`;
+
+      }
+
+
+
+      if (q.includes('自閉') || q.includes('亞斯') || q.includes('大醫院') || q.includes('固著') || q.includes('眼神')) {
+
+        return `老師您好！關於**自閉症（含亞斯伯格）**的提報與輔導：
+
+1. **常見特質**：
+
+   - 社交溝通困難、眼神接觸少、難以理解同儕潛台詞或幽默。
+
+   - 行為或興趣模式侷限且高度固著（例如：座次或課表異動會引發極大焦慮抗拒）。
+
+2. **臺南市鑑輔會審查硬性規定**：
+
+   - 輔導老師輔導達 **3 個月以上，次數達 8 次以上**。
+
+   - 須有 **區域級以上醫院專科診斷，診斷書 6 個月內**（如成大、奇美、安南等）；輔導包含社會互動與環境適應。
+
+3. 課堂上建議提前預告行程異動，並提供具體清晰的常規指示，若有需要亦可向學習中心（分機 57）申請特教諮詢！`;
+
+      }
+
+
+
+      if (q.includes('調整') || q.includes('評量') || q.includes('段考') || q.includes('考試') || q.includes('報讀')) {
+
+        return `老師您好！在尚未完成鑑定或普通班日常課堂中，您可以先嘗試以下**教學與評量調整措施**：
+
+1. **試卷與評量調整**：
+
+   - **報讀服務**：針對疑似閱讀認字困難孩子，由老師或夥伴協助念題目。
+
+   - **延長作答時間**：延長 10~20 分鐘，減緩其提取或書寫焦慮。
+
+   - **放大字體/行距**：避免視覺擁擠造成的漏行漏字。
+
+2. **作業與課堂**：
+
+   - 允許使用電腦打字、口頭回答、部件勾選代替大段落生字反覆抄寫。
+
+   - 安排情緒溫和、具包容力的同儕擔任天使小幫手。
+
+這些調整歷程亦可記錄下來，作為未來提報鑑輔會時「普通教育已提供適當調整仍有顯著困難」的最佳佐證！`;
+
+      }
+
+
+
+      return `老師您好！我是民德國中學習中心特教老師。針對您詢問的「${query}」：
+
+本校特殊教育支持系統與臺南市鑑輔會規範核心如下：
+
+1. **先介入再提報**：請依「介入紀錄」頁面的四類規範準備；智能障礙未另列最低次數，情障另須至少 1 次個案會議紀錄。
+
+2. **排除非障礙因素**：需確認非環境刺激不足、文化不利或教學不當造成，且排除單純專注力不足引發之學業落後。
+
+3. **初篩與送件**：請備妥相關佐證資料後告知輔導室學習中心（分機 57），學習中心特教老師將協助施測常模工具並召開特推會審查！
+
+如需進一步評估個案，歡迎於下課時間隨時前來行政大樓3F學習中心討論！`;
+
+    }
+
+
+
+    async function callGeminiApi(userPrompt) {
+      return generateSmartLocalAnswer(userPrompt);
+    }
+
+    async function handleChatSubmit(e) {
+
+      if (e) e.preventDefault();
+
+      const input = document.getElementById('userInput');
+
+      const text = input.value.trim();
+
+      if (!text || document.getElementById('sendBtn').disabled) return;
+
+
+
+      appendMessage(text, 'user');
+
+      input.value = '';
+
+
+
+      const sendBtn = document.getElementById('sendBtn');
+
+      sendBtn.disabled = true;
+
+
+
+      const loadingId = appendLoadingBubble();
+
+
+
+      try {
+
+        const responseText = await callGeminiApi(text);
+
+        removeMessage(loadingId);
+
+        appendMessage(responseText, 'ai');
+
+      } catch (err) {
+
+        removeMessage(loadingId);
+
+        appendMessage(generateSmartLocalAnswer(text), 'ai');
+
+      } finally {
+
+        sendBtn.disabled = false;
+
+        if (window.innerWidth > 768) input.focus();
+
+      }
+
+    }
+
+
+
+    function askQuickQuestion(questionText) {
+
+      switchTab('tab-chat');
+
+      document.getElementById('userInput').value = questionText;
+
+      handleChatSubmit(null);
+
+    }
+
+
+
+    function appendMessage(text, sender) {
+
+      const container = document.getElementById('chatMessages');
+
+      const div = document.createElement('div');
+
+      div.className = `flex items-start gap-2.5 sm:gap-3 ${sender === 'user' ? 'justify-end' : ''}`;
+
+
+
+      if (sender === 'user') {
+
+        div.innerHTML = `
+
+          <div class="chat-bubble-user p-3 sm:p-3.5 text-xs sm:text-sm max-w-[85%] shadow-xs leading-relaxed whitespace-pre-line">
+
+            ${escapeHtml(text)}
+
+          </div>
+
+          <div class="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-slate-700 text-white flex-shrink-0 flex items-center justify-center text-xs font-bold shadow-xs">
+
+            <i class="fa-solid fa-chalkboard-user"></i>
+
+          </div>
+
+        `;
+
+      } else {
+
+        const formatted = formatMarkdown(text);
+
+        div.innerHTML = `
+
+          <div class="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-emerald-600 text-white flex-shrink-0 flex items-center justify-center text-xs font-bold shadow-xs">
+
+            <i class="fa-solid fa-graduation-cap"></i>
+
+          </div>
+
+          <div class="chat-bubble-ai p-3.5 sm:p-4 text-xs sm:text-sm text-slate-800 shadow-xs max-w-[90%] sm:max-w-[85%] leading-relaxed space-y-2">
+
+            ${formatted}
+
+          </div>
+
+        `;
+
+      }
+
+
+
+      container.appendChild(div);
+
+      container.scrollTop = container.scrollHeight;
+
+      postIframeHeight();
+
+    }
+
+
+
+    function appendLoadingBubble() {
+
+      const id = 'loading-' + Date.now();
+
+      const container = document.getElementById('chatMessages');
+
+      const div = document.createElement('div');
+
+      div.id = id;
+
+      div.className = 'flex items-start gap-2.5 sm:gap-3';
+
+      div.innerHTML = `
+
+        <div class="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-emerald-600 text-white flex-shrink-0 flex items-center justify-center text-xs font-bold shadow-xs animate-bounce">
+
+          <i class="fa-solid fa-graduation-cap"></i>
+
+        </div>
+
+        <div class="chat-bubble-ai px-3.5 py-2.5 text-xs text-slate-500 shadow-xs flex items-center gap-2">
+
+          <i class="fa-solid fa-circle-notch fa-spin text-emerald-600"></i>
+
+          查詢平台既有資料中...
+
+        </div>
+
+      `;
+
+      container.appendChild(div);
+
+      container.scrollTop = container.scrollHeight;
+
+      return id;
+
+    }
+
+
+
+    function removeMessage(id) {
+
+      const el = document.getElementById(id);
+
+      if (el) el.remove();
+
+    }
+
+
+
+    function clearChat() {
+
+      const container = document.getElementById('chatMessages');
+
+      container.innerHTML = `
+
+        <div class="flex items-start gap-3">
+
+          <div class="w-8 h-8 rounded-full bg-emerald-600 text-white flex-shrink-0 flex items-center justify-center text-xs font-bold shadow">
+
+            <i class="fa-solid fa-graduation-cap"></i>
+
+          </div>
+
+          <div class="chat-bubble-ai p-4 text-xs sm:text-sm text-slate-800 shadow-sm max-w-[85%] space-y-2">
+
+            <p>對話已重新整理。請問老師目前在班級經營、學生特質觀察或鑑定流程上有什麼疑問呢？</p>
+
+          </div>
+
+        </div>
+
+      `;
+
+      showToast("對話視窗已清空");
+
+    }
+
+
+
+    function formatMarkdown(str) {
+
+      let escaped = escapeHtml(str);
+
+      escaped = escaped.replace(/\*\*(.*?)\*\*/g, '<strong class="text-slate-950 font-bold">$1</strong>');
+
+      escaped = escaped.replace(/^\s*-\s+(.*)$/gm, '<li class="ml-4 list-disc">$1</li>');
+
+      escaped = escaped.replace(/^\s*\d+\.\s+(.*)$/gm, '<li class="ml-4 list-decimal">$1</li>');
+
+      return escaped.replace(/\n\n/g, '<br><br>').replace(/\n/g, '<br>');
+
+    }
+
+
+
+    function escapeHtml(text) {
+
+      const map = {
+
+        '&': '&amp;',
+
+        '<': '&lt;',
+
+        '>': '&gt;',
+
+        '"': '&quot;',
+
+        "'": '&#039;'
+
+      };
+
+      return text.replace(/[&<>"']/g, m => map[m]);
+
+    }
+
+  </script>
+<script>
+const tabNames={'tab-traits':'特質辨識','tab-process':'鑑定流程','tab-intervention':'介入紀錄','tab-gov':'官方資源','tab-chat':'資料問答'};
+const searchIndex=[];
+document.querySelectorAll('.tab-content:not(#tab-chat)').forEach(section=>{
+  const blocks=section.querySelectorAll('details.trait-card, :scope > div');
+  blocks.forEach((el,i)=>{
+    if(!el.id) el.id=section.id+'-block-'+i;
+    const title=el.querySelector('h3,h4,h2')?.textContent.trim()||tabNames[section.id];
+    searchIndex.push({el,tab:section.id,title,text:el.textContent.replace(/\s+/g,' ').trim()});
+  });
+});
+const oldSwitchTab=switchTab;
+switchTab=function(id){if(!document.getElementById(id))return;oldSwitchTab(id);document.querySelectorAll('#navTabs button').forEach(b=>b.setAttribute('aria-current',b.getAttribute('aria-controls')===id?'page':'false'));};
+const oldScrollToElement=scrollToElement;
+scrollToElement=function(id){const el=document.getElementById(id);if(el?.tagName==='DETAILS')el.open=true;oldScrollToElement(id);};
+function runSearch(){
+  const query=document.getElementById('siteSearch').value.trim();
+  const list=document.getElementById('resultList');list.replaceChildren();
+  document.getElementById('searchResults').hidden=!query;
+  if(!query){postIframeHeight();return;}
+  const terms=query.toLowerCase().split(/\s+/);
+  const hits=searchIndex.filter(item=>terms.every(t=>item.text.toLowerCase().includes(t)));
+  document.getElementById('searchStatus').textContent=hits.length?'找到 '+hits.length+' 項相關內容，點選即可前往。':'找不到相關內容，請縮短關鍵字，或洽學習中心。';
+  hits.forEach(item=>{
+    const btn=document.createElement('button');btn.type='button';btn.className='result-item';
+    const title=document.createElement('strong');title.textContent=tabNames[item.tab]+' ｜ '+item.title;
+    const desc=document.createElement('span');const pos=item.text.toLowerCase().indexOf(terms[0]);const start=Math.max(0,pos-24);desc.textContent=(start?'…':'')+item.text.slice(start,start+110)+'…';
+    btn.append(title,desc);btn.addEventListener('click',()=>{switchTab(item.tab);if(item.el.tagName==='DETAILS')item.el.open=true;item.el.setAttribute('tabindex','-1');item.el.focus({preventScroll:true});scrollToElement(item.el.id);item.el.classList.add('jump-focus');setTimeout(()=>item.el.classList.remove('jump-focus'),2000);postIframeHeight();});list.append(btn);
+  });postIframeHeight();
+}
+document.getElementById('searchForm').addEventListener('submit',e=>{e.preventDefault();runSearch();});
+document.getElementById('clearSearch').addEventListener('click',()=>{document.getElementById('siteSearch').value='';runSearch();document.getElementById('siteSearch').focus();});
+document.getElementById('siteSearch').addEventListener('input',runSearch);
+document.querySelectorAll('[data-query]').forEach(b=>b.addEventListener('click',()=>{document.getElementById('siteSearch').value=b.dataset.query;runSearch();}));
+document.querySelectorAll('details').forEach(d=>d.addEventListener('toggle',postIframeHeight));
+</script></body>
+</html>
